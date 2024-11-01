@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-21 10:28-0700\n"
+"PO-Revision-Date: 2016-08-21 10:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:130
+msgid "REPLACE UNLICENSED AND BROKEN IMAGES"
+msgstr ""
+
+#: admin.php:138
+#, php-format
+msgid ""
+"<a href=\"%s\">Image/Link Matches</a> | <a href=\"%s\">Set Replacement</a> | "
+"<a href=\"%s\">Capability</a> | <a href=\"%s\">Add Badge</a> | <a href=\"%s"
+"\">Reset</a>"
+msgstr ""
+
+#: admin.php:140
+msgid "Inclusions and Exclusions"
+msgstr ""
+
+#: admin.php:142
+msgid ""
+"Image links and image anchor links will be matched according to the settings "
+"below and replaced on the site's public-facing Front End. Actual content in "
+"site database will remain unaffected, so can be recovered or retrieved, and "
+"viewed when editing posts."
+msgstr ""
+
+#: admin.php:144
+msgid ""
+"You can also, or alternatively, set specific Posts to be excluded from or "
+"included in image removal and replacement from <a href=\"edit.php\">All "
+"Posts</a> via Quick or Bulk Editing, or from any particular Post or Page "
+"editing screen. <b>Exclusions (clearances for display) typically take "
+"priority, but individual Post or Page settings override all.</b>"
+msgstr ""
+
+#: admin.php:146
+msgid ""
+"Use <a href=\"#image-link-matches\">Image/Link Matches</a> below to refine "
+"the selection further if necessary."
+msgstr ""
+
+#: admin.php:154
+#, php-format
+msgid ""
+"<a href=\"%s\">Inclusions/Exclusions</a> | <a href=\"%s\">Image/Link "
+"Matches</a> | <a href=\"%s\">Set Replacement</a> | <a href=\"%s"
+"\">Capability</a> | <a href=\"%s\">Add Badge</a>"
+msgstr ""
+
+#: admin.php:193
+msgid "1. Remove if Prior to Date"
+msgstr ""
+
+#: admin.php:195
+msgid ""
+"Matched images and links in Posts and Pages published prior to this date "
+"will be removed and replaced."
+msgstr ""
+
+#: admin.php:199
+msgid "2. Remove if After Date"
+msgstr ""
+
+#: admin.php:201
+msgid ""
+"Matched images and links in Posts and Pages published after this date will "
+"be removed and replaced."
+msgstr ""
+
+#: admin.php:205
+msgid "<i>-- Treat Dates as Timespan</i>"
+msgstr ""
+
+#: admin.php:208
+msgid ""
+"If checked, only Posts and Pages whose publication dates fall <b>both</b> "
+"prior to Date #1 and after Date #2 will be included in image removal and "
+"replacement."
+msgstr ""
+
+#: admin.php:212
+msgid "3. Safe Categories"
+msgstr ""
+
+#: admin.php:214
+msgid ""
+"Images and image-links in posts in this Category or Categories will be "
+"<b>excluded</b> from image removal and replacement, regardless of "
+"publication date. Use Category name, or comma-separated list of Category "
+"names  - <code>Science,Politics,Technology</code>. Includes sub-categories. "
+"(Try HTML character code for problematic <a href=\"http://www.w3schools.com/"
+"html/html_entities.asp\" target=\"_blank\" />\"HTML Entities\"</a>.)"
+msgstr ""
+
+#: admin.php:218
+msgid "4. Remove from Categories"
+msgstr ""
+
+#: admin.php:220
+msgid ""
+"Matching images and image-links in posts in this Category or Categories will "
+"be removed and replaced, regardless of publication date. Use Category name, "
+"or comma-separated list of Category names, as in #3."
+msgstr ""
+
+#: admin.php:224
+msgid "5. Safe Authors"
+msgstr ""
+
+#: admin.php:226
+msgid ""
+"Matching images and image-links in posts by this Author or Authors will be "
+"<b>excluded</b> from image removal and replacement, regardless of "
+"publication date. Use name, username, email address, URL, or ID number, or "
+"comma-separated list - <code>John, pepperpotts, sabu@indiatimes.com,23</"
+"code>."
+msgstr ""
+
+#: admin.php:230
+msgid "6. Remove from Posts By"
+msgstr ""
+
+#: admin.php:232
+msgid ""
+"Matching images and image-link in posts by this Author or Authors will be "
+"removed and replaced, regardless of publication date. Use author name, "
+"username, email address, URL, or ID number, or comma-separated list, as in "
+"#5."
+msgstr ""
+
+#: admin.php:236
+msgid "7. Preserve Thumbnails and Featured Images"
+msgstr ""
+
+#: admin.php:239
+msgid ""
+"Check this box if you do <b>NOT</b> want \"Thumbnail\" and \"Featured\" "
+"images to be replaced. (An exception for Fair Use of \"thumbnail\"-size "
+"images has been recognized in some copyright litigation, but the designation "
+"may be misleading, since in many themes it will be applied to large-sized "
+"images.)"
+msgstr ""
+
+#: admin.php:249 admin.php:297 admin.php:358 admin.php:443
+msgid "Save All Changes"
+msgstr ""
+
+#: admin.php:255
+msgid "Image/Link Matches"
+msgstr ""
+
+#: admin.php:257
+msgid ""
+"These settings are case-sensitive, literal, and sequential, and must exactly "
+"match the characters that appear in your target filenames. See further "
+"instructions below."
+msgstr ""
+
+#: admin.php:263
+msgid "1. First String Match"
+msgstr ""
+
+#: admin.php:266
+#, php-format
+msgid ""
+"Letters or characters, or comma- or space-separated list of character "
+"strings - <code>%s, othersite</code> - to be matched in target URLs. "
+"Default: \"<b><code>%s</code></b>\" (host URL). Can also be left blank."
+msgstr ""
+
+#: admin.php:271
+msgid "2. Second String Match"
+msgstr ""
+
+#: admin.php:273
+msgid ""
+"Letters or characters, or comma- or space-separated list of character "
+"strings - <code>uploads files 2015</code> - to be matched in target URLs. "
+"Default: \"<b><code>uploads</code></b>\" (typical WordPress uploads "
+"directory). Can also be left blank."
+msgstr ""
+
+#: admin.php:278
+msgid "3. Matched Image Types"
+msgstr ""
+
+#: admin.php:280
+msgid ""
+"List all image file extensions to be matched. Default: \"<b><code>jpg jpeg "
+"png gif</code></b>.\" If you leave matches #1 and #2 above blank, then all "
+"images exposed with these extensions will be removed."
+msgstr ""
+
+#: admin.php:284
+msgid "4. Remove and Replace ALL Static Images"
+msgstr ""
+
+#: admin.php:287
+msgid ""
+"Check this box to remove and replace all static images in Posts and Pages "
+"regardless of type or origin, as long as they are displayed using <code>&lt;"
+"img&gt;</code> tags. "
+msgstr ""
+
+#: admin.php:301
+msgid ""
+"By default, the plug-in will match the filenames and locations of images in "
+"the Media Library of a typical WordPress installation. So, the default for "
+"\"First String Match\" (#1) is the base URL for your site; the default for "
+"\"Second String Match\" (#2) is \"uploads,\" the name of the folder "
+"containing \"Media Library\" files at most WordPress sites; and \"Matched "
+"Image Types\" (#3) uses the most common image \"file extensions.\""
+msgstr ""
+
+#: admin.php:303
+msgid ""
+"If a typical image you wished to target looked like <code>http://yoursite."
+"com/wp-content/uploads/2016/05/sample_image.jpg</code>, it would be "
+"<b>matched</b> by (1) <code>yoursite</code>, (2) <code>uploads</code> and "
+"(3) <code>jpg</code>, or (1) <code>site</code>, (2) <code>loads</code> and "
+"(3) <code>jpg gif png</code>, but would be <b>missed</b>  by (1) "
+"<code>Yoursite</code> (because there is no uppercase \"Y\" in target), or by "
+"(1) <code>uploads</code>, (2) <code>yoursite</code>, (3) <code>jpg</code> "
+"(because \"yoursite\" comes before \"uploads\" in the target). Similarly, it "
+"would be (narrowly) <b>matched</b> by (1) <code>yoursite</code>, (2) "
+"<code>2016/05</code> and (3) <code>jpg jpeg</code>, or (1) <code>wp-cont,"
+"uploads</code>, (2) <code>2015,2016</code> and (3) <code>jpg jpeg gif png</"
+"code>, but would be <b>missed</b> by (1) <code>yoursite</code>, (2) "
+"<code>uploads</code>, (3) <code>png gif jpeg</code> (because \"jpg\" is "
+"missing from #3)."
+msgstr ""
+
+#: admin.php:305
+msgid ""
+"You can use multiple terms for matching (\"yoursite,othersite\"), but be "
+"careful, and, if fine-tuning, as specific as you can be, since a combination "
+"of #1 <code>yoursite,othersite</code> and #2 <code>uploads,2016</code> will "
+"match both \"yoursite... uploads\" and \"yoursite... 2016,\" and so on."
+msgstr ""
+
+#: admin.php:307
+msgid ""
+"For the broadest inclusion, click the checkbox at #4. This setting will "
+"affect \"served\" and copy-protected images that do not expose file "
+"extensions, but may produce awkward replacement of trivial images like "
+"icons, video-player controllers, avatars, and even invisible tracking icons "
+"in post content.If you use this option, you should still pattern match in "
+"options #1 - #3 to replace thumbnail or featured images, and to prevent "
+"\"crawl\" and \"load\" errors from broken anchor-links."
+msgstr ""
+
+#: admin.php:311
+msgid "Set Replacement"
+msgstr ""
+
+#: admin.php:316
+msgid "1. Select Replacement Image"
+msgstr ""
+
+#: admin.php:326
+msgid ""
+"Enter a URL or upload an image to be used for image replacement. (Remember "
+"to Save Changes!)"
+msgstr ""
+
+#: admin.php:332
+#, php-format
+msgid ""
+"The default image is \"<b><code>%s</code></b>.\" <br><br>With dark-colored "
+"themes try (click to add): <b><code>%s</code></b> or <b><code>%s</code></b>."
+msgstr ""
+
+#: admin.php:344
+msgid "2. Set Replacement Mode"
+msgstr ""
+
+#: admin.php:364
+msgid ""
+"Current Replacement Image (Save Changes to URL/Image to Complete "
+"Processing!):"
+msgstr ""
+
+#: admin.php:370
+#, php-format
+msgid "<p>Displaying \"empty image\" from <code>%s</code>.</p>"
+msgstr ""
+
+#: admin.php:376
+msgid "<p>Replacement image is set to <b>non-display</b>. </p>"
+msgstr ""
+
+#: admin.php:382
+msgid "<p>Replacement image is set to the Digital Arts Alliance image.!</p>"
+msgstr ""
+
+#: admin.php:390
+msgid "Capability"
+msgstr ""
+
+#: admin.php:393
+msgid ""
+"<a href=\"https://codex.wordpress.org/Roles_and_Capabilities\" target="
+"\"_blank\">WordPress Capability</a> required to view and set Removal and "
+"Replacement status of posts. "
+msgstr ""
+
+#: admin.php:400
+msgid "To View and Set Image Status, User Must Be Able to"
+msgstr ""
+
+#: admin.php:402
+msgid ""
+"Examples: <code>edit_others_posts</code>, the default, restricts the "
+"capability to Editors and Admins. <code>publish_posts</code> would enable "
+"Authors, too, though they still could not edit image status on other "
+"Authors's posts."
+msgstr ""
+
+#: admin.php:412
+msgid "Digital Artists Alliance Links"
+msgstr ""
+
+#: admin.php:419
+msgid "Automatic Badge-Link"
+msgstr ""
+
+#: admin.php:424
+msgid ""
+"Check this box to place a discrete badge-link below and to the right of a "
+"typical WordPress site footer."
+msgstr ""
+
+#: admin.php:437
+msgid ""
+"The image above is a \"Digital Artists Alliance\" badge, intended to link a "
+"site to a network of other sites, groups, and individuals defending and "
+"advancing the interests of all digital artists and publishers. "
+"Alternatively, add \"<code>&lt;?php if "
+"( function_exists( 'cks_rui_add_badge' ) ) { echo cks_rui_add_badge() ; } ?"
+"&gt;</code> \" to your theme, or badge shortcode <code>[add_cks_rui_badge]</"
+"code> in a Page or Post, where you want the badge to appear."
+msgstr ""
+
+#: admin.php:463
+msgid "Selected Image"
+msgstr ""
+
+#: admin.php:463
+msgid ""
+"Display the Replacement Image selected above in place of removed images."
+msgstr ""
+
+#: admin.php:466
+msgid "Digital Arts Alliance SVG Image"
+msgstr ""
+
+#: admin.php:466
+msgid "Replace with supplied Digital Arts Alliance Image."
+msgstr ""
+
+#: admin.php:469
+msgid "Default PNG Image"
+msgstr ""
+
+#: admin.php:469
+msgid ""
+"Replace with supplied PNG Image (if SVG Images like the plug-in default are "
+"not permitted)."
+msgstr ""
+
+#: admin.php:472
+msgid "Empty Image"
+msgstr ""
+
+#: admin.php:472
+msgid ""
+"Replace unwanted images with a blank 1-pixel image, typically assuming "
+"dimensions of replaced image."
+msgstr ""
+
+#: admin.php:475
+msgid "Non-Display"
+msgstr ""
+
+#: admin.php:475
+#, php-format
+msgid ""
+"Erase unwanted images  - replaces matched images and links with \"selected "
+"image\" (as above) set to <code>\"display: none\"</code>. (Use an actually "
+"existing image, like the default, to avoid <a href=\"%s\">load errors</a>.)"
+msgstr ""
+
+#: admin.php:512
+msgid "Reset"
+msgstr ""
+
+#: admin.php:514
+msgid "Start over again? Be careful: Changes made here are irreversible."
+msgstr ""
+
+#: admin.php:516
+msgid "Reset Options"
+msgstr ""
+
+#: admin.php:516
+msgid "Reset Options to Default Settings"
+msgstr ""
+
+#: admin.php:516
+msgid "Affects settings that appear on this page."
+msgstr ""
+
+#: admin.php:519
+msgid "Reset Posts"
+msgstr ""
+
+#: admin.php:519
+msgid "Remove Individual Post Settings"
+msgstr ""
+
+#: admin.php:519
+msgid "Affects individual Post options set via Edit (or Quick or Bulk Edit)."
+msgstr ""
+
+#: admin.php:522
+msgid "Reset All"
+msgstr ""
+
+#: admin.php:522
+msgid "Reset ALL - Options and Posts"
+msgstr ""
+
+#: admin.php:522
+msgid "Like a fresh installation - only more so."
+msgstr ""
+
+#: admin.php:525
+msgid ""
+"Are you sure you want to reset the chosen settings? (This step is "
+"irreversible.)"
+msgstr ""
+
+#: admin.php:525
+msgid " - Reset - "
+msgstr ""
+
+#: admin.php:525
+msgid "Reset to Default Settings"
+msgstr ""
+
+#: admin.php:578
+msgid "Getting Started"
+msgstr ""
+
+#: admin.php:580
+msgid ""
+"This plugin will not affect image display at your site until you adjust the "
+"default settings. At some sites, changing a single simple setting, like "
+"specifying a \"prior to date,\" will be enough. At others, initial settings "
+"will just be a starting point."
+msgstr ""
+
+#: admin.php:582
+msgid ""
+"Though the plug-in adds a \"cache-busting\" query to image replacements, it "
+"may not work in all systems: Be sure to check results, and, if matched "
+"images are still showing, try clearing (or \"deleting,\" \"flushing,\" "
+"\"purging\") site, browser, and Content Delivery Network caches. If your "
+"cache or CDN does not allow you to clear it, you may need to find a "
+"different cache or CDN, or to disable the one you're using until your site "
+"is fully cleared of problematic images."
+msgstr ""
+
+#: admin.php:584
+msgid "General Usage Notes"
+msgstr ""
+
+#: admin.php:586
+msgid "Settings can be set very broadly or tuned very specifically."
+msgstr ""
+
+#: admin.php:588
+msgid ""
+"One typical way to use this plug-in, for a site that has undergone a policy "
+"change regarding use of \"non-rights-cleared\" images, would be first to "
+"identify a publication date before which, at least provisionally, all images "
+"should be removed-and-replaced (for visitors viewing the \"Front End\"). If "
+"other default settings (which match file locations and image types in a "
+"typical WordPress installation) capture problematic images, some site "
+"operators might stop there. Others might proceed to identify particular "
+"Posts, Pages, Authors, Categories, or image types that can be cleared for "
+"display either immediately or after editing."
+msgstr ""
+
+#: admin.php:590
+msgid ""
+"If only a narrow set of Posts, Pages, Authors, Categories, or image types "
+"are considered problematic, an Admin can work in the opposite direction "
+"instead. Alternatively, an Admin can set all images on a site not to display "
+"until and unless cleared individually."
+msgstr ""
+
+#: admin.php:592
+msgid ""
+"<p>Discrepancies between images found (from any source) and images matched "
+"(according to your settings, so subject to removal and replacement) will be "
+"highlighted in yellow in <a href=\"edit.php\">All Posts</a> or <a href="
+"\"edit.php?post_type=page\">Pages</a> display. In general these indications "
+"should be taken as clues, not as definitive: Non-matching images will "
+"sometimes be minor tokens that turn up in post content - like avatars, video-"
+"player controls, credit-links, invisible tracking icons, and so on, as well "
+"as images from ad-servers or 3rd-party applications.</p>"
+msgstr ""
+
+#: admin.php:594
+msgid "Getting Rights-Cleared Images"
+msgstr ""
+
+#: admin.php:596
+#, php-format
+msgid ""
+"The developer recommends <a href=\"%s\">ImageInject</a>, a plugin by Thomas "
+"Hoefter and WPscoop. There are many other sources for free images - like <a "
+"href=\"%s\">Wikimedia Commons</a>."
+msgstr ""
+
+#: admin.php:598
+#, php-format
+msgid ""
+"Find more suggestions at <a target=\"_blank\" id=\"ck-home\" href=\"%s\">WP-"
+"RUBI FAQ</a> and <a href=\"%s\">documentation</a>."
+msgstr ""
+
+#: admin.php:623
+msgid "Learn about or join the Digital Artists Alliance."
+msgstr ""
+
+#: admin.php:644
+msgid ""
+"If you think this plug-in saved you time, or work, or anxiety,<br>or money, "
+"or anyway<br>you'd like to see more work like this..."
+msgstr ""
+
+#: admin.php:664
+msgid "...tip him!"
+msgstr ""
+
+#: admin.php:697
+msgid " - \"Default SVG\" "
+msgstr ""
+
+#: admin.php:705
+msgid " - \"Digital Artists Alliance\" "
+msgstr ""
+
+#: admin.php:713
+msgid " - \"Default PNG\" "
+msgstr ""
+
+#: admin.php:721
+msgid " - \"Empty Image\" "
+msgstr ""
+
+#: admin.php:729
+msgid " - \"Non-Display\" "
+msgstr ""
+
+#: admin.php:741
+msgid "Before Image"
+msgstr ""
+
+#: admin.php:743
+msgid "Before"
+msgstr ""
+
+#: admin.php:745
+msgid "After Image 1"
+msgstr ""
+
+#: admin.php:747
+msgid "After"
+msgstr ""
+
+#: admin.php:749
+msgid "After Image 2"
+msgstr ""
+
+#: admin.php:751
+msgid "After - Selective"
+msgstr ""
+
+#: admin.php:772
+#, php-format
+msgid ""
+"Proper use of this plug-in will prevent display of identified unwanted "
+"images and broken image links, reducing or eliminating legal exposure and "
+"also reducing or eliminating <a href=\"%s\">\"load\" and \"crawl\" errors</"
+"a> from time of implementation forward. The developer does not and cannot "
+"promise that this plug-in will secure a site from all legal risks or search "
+"ranking disadvantages, especially when they stem from past exposure."
+msgstr ""
+
+#: admin_extra.php:79
+msgid ""
+"<b>This post's images are set to be displayed</b>, with global settings "
+"having been overriden above."
+msgstr ""
+
+#: admin_extra.php:85
+msgid ""
+"<b>This post's images are set to be displayed</b>, regardless of settings "
+"elsewhere now or in the future."
+msgstr ""
+
+#: admin_extra.php:91
+msgid ""
+"<b>This post's images are set to be removed and replaced</b>, regardless of "
+"settings elsewhere now or in the future."
+msgstr ""
+
+#: admin_extra.php:97
+msgid ""
+"<b>This post's images are set to be removed and replaced.</b> To override "
+"global settings, choose \"Clear Images to Display.\""
+msgstr ""
+
+#: admin_extra.php:103
+msgid ""
+"<b>This post's images are set to be removed and replaced.</b> To override "
+"global settings, choose \"Clear Images to Display.\" You can also set it to "
+"be Removed and Replaced on its own, overriding global settings if they are "
+"changed."
+msgstr ""
+
+#: admin_extra.php:109
+msgid ""
+"<b>This post's images are set to be displayed.</b> You can also set them to "
+"remain cleared to display or to be removed and replaced regardless of "
+"settings elsewhere"
+msgstr ""
+
+#: admin_extra.php:119
+msgid "Clear Images for Display"
+msgstr ""
+
+#: admin_extra.php:126
+msgid "Remove and Replace Post Images"
+msgstr ""
+
+#: admin_extra.php:133 admin_extra.php:600 admin_extra.php:643
+msgid "Do Not Override Global Settings"
+msgstr ""
+
+#: admin_extra.php:224
+msgid "Featured Image"
+msgstr ""
+
+#: admin_extra.php:225
+msgid "Image Remove/Replace"
+msgstr ""
+
+#: admin_extra.php:594 admin_extra.php:637
+msgid "Clear Images for Display | "
+msgstr ""
+
+#: admin_extra.php:597 admin_extra.php:640
+msgid "Remove and Replace Post Images | "
+msgstr ""
+
+#: cks_rui.php:196
+msgid "All Options and Post Data Reset"
+msgstr ""
+
+#: cks_rui.php:197
+msgid "Options Reset to Defaults"
+msgstr ""
+
+#: cks_rui.php:198
+msgid "Post Data Reset"
+msgstr ""
+
+#: cks_rui.php:917 cks_rui.php:933
+msgid "Digital Artists Alliance Badge"
+msgstr ""

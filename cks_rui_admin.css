@@ -1,0 +1,504 @@
+/* CKS RUBI - WP Replace Unlicensed and Broken Images
+ * Since March 2017
+ * Version: 1.0.5
+ */
+.cks_plugins h1
+{
+	margin-bottom:1em;
+}
+
+.cks_plugins .button-primary.top
+{
+	float:right;
+	margin-bottom:1em;
+}
+
+#cks_plugins-admin-wrapper
+{
+	background-color:#F5F5F5;
+}
+
+#cks_plugins-sections
+{
+	background:#fff;
+	border:1px solid #ccc;
+	border-top:0;
+	overflow:auto;
+	padding:0 40px 20px;
+}
+
+#cks_plugins-main
+{
+	float:left;
+	margin-bottom:40px;
+	width:61.8%;
+}
+
+.goto-menu {
+    text-align: center;
+}
+
+.cks_plugins .form-table th
+{
+	line-height:1.5;
+	margin:0;
+        min-width: 120px;
+	padding:12px 0;
+}
+
+.cks_plugins .form-table tr
+{
+	width:100%;
+}
+
+.cks_plugins .form-table td
+{
+	margin-left:20px;
+	padding:12px 0 12px 20px;
+}
+
+.form-table textarea
+{
+	display:block;
+	float:left;
+	height:4.5em;
+	width:35%;
+}
+
+.cks_plugins input[type=text]
+{
+	display:block;
+	float:left;
+	vertical-align:text-bottom;
+	width:35%;
+}
+
+.cks_plugins input[type=number]
+{
+	height:28px;
+	line-height:inherit;
+	width:50px;
+}
+
+.cks_plugins input[type=checkbox]
+{
+	margin-top:2px;
+}
+
+.cks_plugins input[type=url]
+{
+	width:30%;
+        
+}
+
+input[type=url].url-rtl {
+    
+    direction: rtl;
+    
+}
+
+.cks_rui_repeat_inputs
+{
+	clear:left;
+	display:block;
+	float:left;
+	font-size:.85em;
+	width:30%;
+}
+
+.cks-error-output
+{
+	color:red;
+}
+
+.cks_plugins .description
+{
+	display:block;
+	float:right;
+	width:60%;
+}
+
+.cks_plugins #upload_image
+{
+	width:100%;
+}
+
+.form-table td p.admin-radio
+{
+	clear:both;
+	margin-top:0;
+	overflow:auto;
+	padding-bottom:12px;
+}
+
+h4#rui-show-image
+{
+	margin-top:0;
+}
+
+#cks_rui-replacement-image
+{
+	background-color: #f4f2f2;
+        display:block;
+	margin:12px auto;
+	max-width:100%;
+}
+
+#cks_rui-show-image
+{
+	padding-bottom:1em;
+}
+
+#cks_rui-disclaimer
+{
+	background-color:lightgray;
+	border:1px dotted #000;
+	margin:40px;
+	padding:12px 32px;
+}
+
+#cks_plugins-sidebar
+{
+	float:right;
+	margin:0 0 20px;
+	width:38.2%;
+}
+
+.ck-sidebar-notes
+{
+	background-color:#fff;
+	border:1px dotted gray;
+	margin:0 40px;
+	padding:20px 32px;
+}
+
+.ck-sidebar-notes h3
+{
+	margin-top:0;
+	text-align:center;
+}
+
+.cks_plugins .ck-illustrations
+{
+	margin:20px 40px;
+	overflow:auto;
+}
+
+p.cks_plugins_admin-caption
+{
+	display:block;
+	font-size:16px;
+	font-style:italic;
+	font-weight:600;
+	margin:0;
+	padding:4px 0;
+	text-align:center;
+	width:100%;
+}
+
+.cks_plugins .ck-illustrations img
+{
+	display:block;
+	margin:2.5em auto 0;
+	width:100%;
+}
+
+#daa-list
+{
+	background-color:#000;
+	border:1px dotted #000;
+	margin:40px;
+	padding:32px;
+}
+
+#daa-list img
+{
+	width:100%;
+}
+
+p#daa-list-offer
+{
+	margin-bottom:0;
+	text-align:center;
+}
+
+#daa-list-offer a
+{
+	color:#05F3FD;
+}
+
+.ck-donation
+{
+	background-color:#fff;
+	border:1px dotted gray;
+	margin:40px;
+	overflow:auto;
+	padding:20px 32px 40px;
+}
+
+.ck-donation p
+{
+	font-size:14px;
+	font-style:italic;
+	font-weight:700;
+	margin-bottom:0;
+	text-align:center;
+}
+
+#ck-donate-submit-line
+{
+	margin:0 auto;
+	width:150px;
+}
+
+#sos-amount
+{
+	display:block;
+	float:left;
+	margin:0 auto;
+	width:48%;
+}
+
+#sos-submit
+{
+	display:block;
+	float:right;
+	padding:2px 2px 1px;
+	width:48%;
+}
+
+#sos-button
+{
+	background-image:url(images/cks_wp_square_150x150.jpg);
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	background-size:150px 150px;
+	display:block;
+	height:80px;
+	margin:0 auto;
+	padding-top:160px;
+	text-align:center;
+	width:250px;
+}
+
+.cks_plugins .sidebar-version p
+{
+	font-size:16px;
+	font-weight:700;
+	text-align:center;
+}
+
+#version-info
+{
+	font-weight:500;
+}
+
+#cks_plugins_admin-footer
+{
+	background-color:#E2E1D9;
+	clear:both;
+	margin-top:1%;
+	overflow:auto;
+	width:100%;
+}
+
+#cks_plugins_admin-footer a
+{
+	background-color:#E2E1D9;
+	display:block;
+	float:left;
+	font-family:Calibri, sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:40px;
+	letter-spacing:1px;
+	line-height:20px;
+	min-width:5%;
+	padding:1% 2%;
+	text-align:center;
+	text-decoration:none;
+	width:auto;
+}
+
+#cks_plugins_admin-footer a:hover
+{
+	background-color:#B04D52;
+	color:#F5F5F5;
+}
+
+#cks_plugins_admin-footer img
+{
+	max-width:80%;
+	min-width:80px;
+}
+
+#cks_plugins_admin-footer a.last-link
+{
+	border-right:none;
+}
+
+#cks_plugins_admin-footer a.pre-wp-beta
+{
+	background-color:lightgray;
+	color:gray;
+}
+
+#cks_plugins_admin-footer a.pre-wp-beta:hover
+{
+	background-color:lightgray;
+	color:gray;
+}
+
+#cks_plugins_admin-footer a.wordpress-link
+{
+	background-color:#F5F5F5;
+	border:1px solid #00008B;
+}
+
+#cks_plugins_admin-footer a.wordpress-link:hover
+{
+	color:#000;
+}
+
+#cks_rui-meta-labels
+{
+	padding:12px;
+}
+
+#cks_rui-meta-labels p.description
+{
+	margin-top:12px;
+}
+
+#cks_rui-meta-labels.cks_rui-images-removed
+{
+	border:2px solid red;
+}
+
+#cks_rui-meta-labels.cks_rui-images-displayed
+{
+	border:2px solid green;
+}
+
+img.cks_rui-images-removed
+{
+	background-color:red;
+}
+
+img.cks_rui-images-displayed
+{
+	background-color:green;
+}
+
+img.cks_rui-edit-posts-img
+{
+	display:block;
+	height:55px;
+	margin:0 auto;
+	max-width:100%;
+	padding:2px;
+	width:auto;
+}
+
+.cks_rui-images-cleared
+{
+	text-align:center;
+}
+
+.inline-edit-col-right.inline-edit-clear-images .title
+{
+	display:block;
+	padding:12px 0 0;
+}
+
+#featured_image,th.column-featured_image
+{
+	text-align:center;
+}
+
+th.column-images_cleared,.iedit .column-images_cleared
+{
+	float:none;
+}
+
+.cks_rui-images-removed-text
+{
+	color:red;
+}
+
+.cks_rui-images-displayed-text
+{
+	color:green;
+}
+
+.no-images
+{
+	color:lightgray;
+}
+
+.column-images_cleared .mismatch
+{
+	background-color:#FFFCCC;
+}
+
+@media only screen and (max-width: 1200px)  {
+	#cks_plugins-main
+	{
+		float:none;
+		width:100%;
+	}
+	
+	.cks_plugins .form-table td
+	{
+		margin-left:0;
+		padding:12px 0;
+		width:100%;
+	}
+	
+	.cks_plugins .description
+	{
+		display:block;
+		float:none;
+		width:100%;
+	}
+	
+	.cks_plugins input[type=number]
+	{
+		width:30%;
+	}
+	
+	#cks_plugins-sidebar
+	{
+		float:none;
+		margin-top:40px;
+		width:100%;
+	}
+	
+	#cks_plugins_admin-footer a
+	{
+		display:block;
+		float:left;
+		height:50px;
+		margin:0;
+		padding:2% 0;
+		text-align:center;
+		width:50%;
+	}
+	
+	#cks_plugins_admin-footer a#link-to-cks-plugins,#cks_plugins_admin-footer a.last-link
+	{
+		border:none;
+		height:auto;
+		margin:0 auto;
+		padding:1% 0;
+		width:100%;
+	}
+}
+/**
+ * @package: WordPress Replace Unlicensed and Broken Images
+ * @Since: 1.0.4
+ * @Date: October 2016
+ * @Author: CK MacLeod
+ * @Author: URI: http://ckmacleod.com
+ * @License: GPL3
+ */
